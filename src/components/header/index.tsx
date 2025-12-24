@@ -1,33 +1,33 @@
 import * as S from "./styles";
-import logoDesk from '../../assets/imagen/maeRece.png'
-import logoMob from '../../assets/imagen/ReceitasdeMae.png'
+import logoDesk from '../../assets/imagen/maeRece.png';
+import logoMob from '../../assets/imagen/ReceitasdeMae.png';
 import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
+  const navigate = useNavigate();
 
-     const navigate = useNavigate();
-     
-    return (
-        <S.Header>
-        <S.Title>
-            <picture>
-                <source
-                    srcSet={logoMob}
-                    media="(max-width: 768px)"
-                />
-                <img src={logoDesk} alt="Receitas de Mãe" />
-            </picture>
-        </S.Title>
+  // Função para navegar por tag, sem #
+  const navegarPorTag = (tag) => {
+    navigate(`/tag/${tag.toLowerCase()}`);
+  };
 
-        <S.Menu>
-            <ul>
-                <li onClick={() => navigate("/")}>Receitas</li>
-                <li onClick={() => navigate("/doces")}>Doces</li>
-                <li onClick={() => navigate("/salgados")}>Salgados</li>
-                <li onClick={() => navigate("/especial")}>Especial de Hoje</li>
-            </ul>
-        </S.Menu>
+  return (
+    <S.Header>
+      <S.Title>
+        <picture>
+          <source srcSet={logoMob} media="(max-width: 768px)" />
+          <img src={logoDesk} alt="Receitas de Mãe" />
+        </picture>
+      </S.Title>
 
-        </S.Header>
-    );
-    };
+      <S.Menu>
+        <ul>
+          <li onClick={() => navigate("/")}>Receitas</li>
+          <li onClick={() => navegarPorTag("doce")}>Doces</li>
+          <li onClick={() => navegarPorTag("salgado")}>Salgados</li>
+          <li onClick={() => navegarPorTag("especial")}>Especial de Hoje</li>
+        </ul>
+      </S.Menu>
+    </S.Header>
+  );
+};

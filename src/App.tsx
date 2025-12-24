@@ -8,6 +8,7 @@ import { GlobalCSs } from "./styles/global";
 import { theme } from "./styles/theme";
 import { Route, Routes } from "react-router-dom";
 import { ReceitaPage } from "./pages/ReceitaPage";
+import { ReceitaList } from "./pages/ReceitasList";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path= "/" element={<ListaReceitas />} />
         <Route path="/receita/:id" element={<ReceitaPage  />} />
+        <Route path="/tag/:tag" element={<ReceitaList />} />
       </Routes>
     </ThemeProvider>
   );
