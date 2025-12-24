@@ -8,18 +8,17 @@ export const receitas = [
             "#bolo",
             "#doce",
             "#frutas",
-            "#sobremesa",
             "#confeitaria"
         ],
         "forma": "Bolo inglês 30x10cm",
-        "rendimento": "1 bolo (aprox. 10 a 12 fatias)",
+        "rendimento": "aprox. 10 a 12 fatias ",
         "tempo_preparo": {
             "preparo": "30 minutos",
             "forno": "40 a 45 minutos",
             "total": "1h10min a 1h15min"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
                 "4 ovos",
                 "1 xícara de açúcar (200g)",
                 "1 colher de chá de essência de baunilha",
@@ -28,47 +27,47 @@ export const receitas = [
                 "1 xícara de farinha de trigo (160g)",
                 "1 colher de sopa de fermento em pó"
             ],
-            "recheio": [
+            "Recheio": [
                 "1 lata de leite condensado",
                 "2 caixinhas de creme de leite",
                 "1 gema",
                 "1/2 xícara de leite em pó",
                 "150g de cream cheese"
             ],
-            "calda": [
+            "Calda": [
                 "200ml de água filtrada",
                 "1 colher de sopa de leite em pó",
                 "ou água com leite condensado"
             ],
-            "reducao_frutas_vermelhas": [
+            "Redução de Frutas Vermelhas:": [
                 "450g de frutas vermelhas (amora, framboesa, mirtilo e morango)",
                 "3 colheres de sopa de açúcar",
                 "3 colheres de sopa de água (somente se as frutas forem frescas)"
             ]
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
                 "Preaqueça o forno a 180°C.",
                 "Em uma tigela, bata os ovos com o açúcar até obter um creme claro.",
                 "Adicione a baunilha, o óleo e o leite, misturando bem.",
                 "Incorpore a farinha de trigo aos poucos.",
                 "Finalize adicionando o fermento e misture delicadamente.",
-                "Despeje a massa em forma untada e enfarinhada.",
+                "Despeje a Massa em forma untada e enfarinhada.",
                 "Asse por 40 a 45 minutos ou até passar no teste do palito."
             ],
-            "recheio": [
+            "Recheio": [
                 "Em uma panela, misture o leite condensado, o creme de leite, a gema e o leite em pó.",
                 "Leve ao fogo médio, mexendo sempre até engrossar.",
                 "Desligue o fogo e acrescente o cream cheese, misturando até ficar homogêneo.",
                 "Reserve até esfriar."
             ],
-            "reducao_frutas_vermelhas": [
+            "Redução de Frutas Vermelhas": [
                 "Coloque as frutas vermelhas e o açúcar em uma panela.",
                 "Se as frutas forem frescas, adicione a água.",
                 "Leve ao fogo médio até formar uma calda levemente espessa.",
                 "Reserve para esfriar."
             ],
-            "montagem": [
+            "Montagem": [
                 "Desenforme o bolo já frio e corte ao meio.",
                 "Regue com a calda escolhida.",
                 "Recheie com o creme e adicione a redução de frutas vermelhas.",
@@ -96,7 +95,7 @@ export const receitas = [
             "total": "4 a 6 horas (incluindo congelamento)"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
                 "1 litro de leite",
                 "2 gemas",
                 " 1 colher de sobremesa de manteiga",
@@ -109,7 +108,7 @@ export const receitas = [
             ],
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
                 "Fazer um doce de ameixa",
             ],
             "como": [
@@ -126,14 +125,12 @@ export const receitas = [
         "categoria": "Carnes",
         "tags": [
             "#salgado",
-            "#carne",
-            "#almoco",
-            "#jantar",
+            
             "#lagarto",
             "#assado",
         ],
         "Panela": " sim ",
-        "rendimento": "10",
+        "rendimento": "10 pessoas",
         "tempo_preparo": {
             "preparo": "15 a 20 minutos",
             "marinado": '8 a 12 horas',
@@ -243,7 +240,7 @@ export const receitas = [
             "total": "55 a 1h10"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
                 "1 lata de ervilha",
                 "1 lata de palmito",
                 "1/2 quilo de camarão (pescal)",
@@ -260,7 +257,7 @@ export const receitas = [
 
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
                 'Misture tudo junto, por 1 colher de sobremesa de pó royal. Untar uma forma e levar ao forno já quente'
             ],
 
@@ -295,7 +292,7 @@ export const receitas = [
                 "2 folhas de louro",
                 "3 ramos de salsa",
                 "3 cebolas verdes",
-                "2 dentes de alho amassados",
+                "2 dentes de alho aMassados",
                 "Sal a gosto",
                 "Pimenta a gosto",
                 "Pimenta-do-reino a gosto"
@@ -364,7 +361,7 @@ export const receitas = [
             "total": "35 minutos"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
                 "1 kg de castanhas portuguesas cozidas e descascadas",
                 "3 colheres de sopa de manteiga",
                 "1 xícara de leite",
@@ -375,7 +372,7 @@ export const receitas = [
 
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
                 "Passe as castanhas ainda quentes pelo espremedor ou amasse bem até obter um purê.",
                 "Em uma panela, misture o purê de castanhas com a manteiga e o leite.",
                 "Leve ao fogo médio, mexendo sempre, até obter um purê liso, homogêneo e consistente.",
@@ -395,7 +392,7 @@ export const receitas = [
         "categoria": "Prato principal",
         "tags": [
             "#salgado",
-            "#massa",
+            "#Massa",
             "#forno",
             "#presunto",
             "#mussarela"
@@ -408,8 +405,8 @@ export const receitas = [
             "total": "60 minutos"
         },
         "ingredientes": {
-            "massa": [
-                "1/2 receita de massa folhada congelada"
+            "Massa": [
+                "1/2 receita de Massa folhada congelada"
             ],
             "recheio": [
                 "200 g de presunto em fatias",
@@ -428,8 +425,8 @@ export const receitas = [
             ]
         },
         "modo_preparo": {
-            "massa": [
-                "Abra a massa folhada com espessura aproximada de 3 cm.",
+            "Massa": [
+                "Abra a Massa folhada com espessura aproximada de 3 cm.",
                 "Corte em três pedaços retangulares iguais.",
                 "Coloque-os em uma assadeira levemente molhada, fure com um garfo e leve ao forno preaquecido a 180 °C por 15 minutos."
             ],
@@ -443,10 +440,10 @@ export const receitas = [
                 "Misture bem e deixe esfriar."
             ],
             "montagem": [
-                "Coloque um retângulo de massa em um refratário.",
+                "Coloque um retângulo de Massa em um refratário.",
                 "Cubra com presunto, um pouco de mussarela e parte do molho.",
-                "Coloque o segundo retângulo de massa e repita as camadas.",
-                "Finalize com o terceiro retângulo de massa, comprimindo levemente.",
+                "Coloque o segundo retângulo de Massa e repita as camadas.",
+                "Finalize com o terceiro retângulo de Massa, comprimindo levemente.",
                 "Espalhe o restante do molho e cubra com a mussarela."
             ],
 
@@ -467,7 +464,7 @@ export const receitas = [
             "#forno",
             "#frango",
             "#empadão",
-            "#massa"
+            "#Massa"
         ],
         "forma": "Forma de aro removível",
         "rendimento": "6 a 8 porções",
@@ -477,7 +474,7 @@ export const receitas = [
             "total": "1 hora e 25 minutos"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
                 "250 g de farinha de trigo",
                 "1 ovo",
                 "1 colher de sopa de manteiga",
@@ -494,12 +491,12 @@ export const receitas = [
             ]
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
                 "Faça um anel com a farinha de trigo sobre uma superfície.",
                 "Coloque no centro o ovo, o sal e a banha.",
                 "Misture bem e acrescente a manteiga.",
-                "Trabalhe a massa até ficar homogênea e no ponto de abrir.",
-                "Enrole a massa em um pano úmido e deixe descansar por 30 minutos."
+                "Trabalhe a Massa até ficar homogênea e no ponto de abrir.",
+                "Enrole a Massa em um pano úmido e deixe descansar por 30 minutos."
             ],
             "recheio": [
                 "Cozinhe o frango e desfie.",
@@ -509,10 +506,10 @@ export const receitas = [
                 "Deixe o recheio esfriar completamente antes de usar."
             ],
             "montagem": [
-                "Forre uma forma de aro removível com parte da massa.",
+                "Forre uma forma de aro removível com parte da Massa.",
                 "Coloque o recheio frio.",
-                "Cubra com outra camada de massa, não muito grossa.",
-                "Decore com pedaços da massa.",
+                "Cubra com outra camada de Massa, não muito grossa.",
+                "Decore com pedaços da Massa.",
                 "Pincele com gema ou leite."
             ]
         },
@@ -633,7 +630,7 @@ export const receitas = [
             "total": "45 minutos"
         },
         "ingredientes": {
-            "massa": [
+            "Massa": [
             "7 colheres de sopa de farinha de trigo",
             "1 colher de sopa bem cheia de banha",
             "1 colher de sopa bem cheia de margarina",
@@ -651,11 +648,11 @@ export const receitas = [
             ]
         },
         "modo_preparo": {
-            "massa": [
+            "Massa": [
             "Em uma tigela, misture a farinha de trigo e o sal.",
             "Acrescente a banha e a margarina e misture com a ponta dos dedos até formar uma farofa.",
-            "Junte as gemas e o leite aos poucos, misturando até obter uma massa lisa e macia.",
-            "Cubra a massa e deixe descansar por 15 minutos."
+            "Junte as gemas e o leite aos poucos, misturando até obter uma Massa lisa e macia.",
+            "Cubra a Massa e deixe descansar por 15 minutos."
             ],
             "recheio": [
             "Em uma tigela, misture os queijos ralados.",
@@ -665,8 +662,8 @@ export const receitas = [
             ],
             "montagem": [
             "Unte levemente as forminhas de empada.",
-            "Forre o fundo e as laterais com a massa.",
-            "Distribua o recheio, sem cobrir com massa."
+            "Forre o fundo e as laterais com a Massa.",
+            "Distribua o recheio, sem cobrir com Massa."
             ]
         },
         "finalizacao": [
@@ -739,7 +736,7 @@ export const receitas = [
         "total": "50 a 55 minutos"
     },
     "ingredientes": {
-        "massa": [
+        "Massa": [
         "5 ovos",
         "1 xícara de chá de leite",
         "1 xícara de chá de óleo",
@@ -754,16 +751,16 @@ export const receitas = [
         ]
     },
     "modo_preparo": {
-        "massa": [
+        "Massa": [
         "No liquidificador, bata os ovos, o leite, o óleo, o sal e o queijo ralado.",
-        "Acrescente a farinha de trigo aos poucos e bata até obter uma massa homogênea.",
+        "Acrescente a farinha de trigo aos poucos e bata até obter uma Massa homogênea.",
         "Por último, adicione o fermento em pó e misture delicadamente."
         ],
         "montagem": [
         "Unte a forma com óleo e polvilhe farinha de trigo.",
-        "Despeje metade da massa na forma.",
+        "Despeje metade da Massa na forma.",
         "Distribua o recheio escolhido.",
-        "Cubra com o restante da massa.",
+        "Cubra com o restante da Massa.",
         "Polvilhe queijo ralado por cima."
         ]
     },
