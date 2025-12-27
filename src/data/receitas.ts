@@ -125,7 +125,6 @@ export const receitas = [
         "categoria": "Carnes",
         "tags": [
             "#salgado",
-            
             "#lagarto",
             "#assado",
         ],

@@ -4,17 +4,34 @@ import { useState } from "react";
 import * as S from "./styles";
 import { RecipePreview } from "../ReceitaPrevia";
 
-type Receita = {
-  id: number;
-  nome: string;
-  categoria: string;
-  rendimento?: string;
-  tags: string[];
-  tempo_preparo?: {
-    total?: string;
-  };
-  ingredientes?: Record<string, string[]>;
-};
+
+
+export interface Receita {
+    id: number;
+    nome: string;
+    categoria: string;
+    tags: string[];
+
+    forma?: string;
+    Panela?: string;
+    rendimento?: string;
+
+    // ESSENCIAL: Permite que qualquer etapa seja string, ou undefined (se ausente)
+    tempo_preparo?: {
+        [etapa: string]: string | undefined; 
+    };
+
+    // ESSENCIAL: Remove o ' | undefined' dos arrays internos para consistência
+    ingredientes?: {
+        [titulo: string]: string[];
+    };
+
+    modo_preparo?: {
+        [titulo: string]: string[];
+    };
+
+    finalizacao?: string[];
+}
 
 type RecipeCardProps = {
   receita: Receita;
@@ -33,12 +50,17 @@ export function RecipeCard({ receita }: RecipeCardProps) {
         </S.Header>
 
         <S.Info>
-          <p>
-            <strong>⏱ Tempo:</strong> {receita.tempo_preparo?.total}
-          </p>
-          <p>
-            <strong>🍽 Rendimento:</strong> {receita.rendimento}
-          </p>
+          {receita.tempo_preparo?.total && (
+            <p>
+              <strong>⏱ Tempo:</strong> {receita.tempo_preparo.total}
+            </p>
+          )}
+
+          {receita.rendimento && (
+            <p>
+              <strong>🍽 Rendimento:</strong> {receita.rendimento}
+            </p>
+          )}
         </S.Info>
 
         <S.Tags>

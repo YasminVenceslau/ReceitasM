@@ -1,7 +1,7 @@
 export type ListaDeTextos = string[];
 
 export interface BlocosDeTexto {
-    [titulo: string]: ListaDeTextos;
+    [titulo: string]: ListaDeTextos | undefined;
 }
 
 export interface TempoPreparo {
@@ -20,8 +20,10 @@ export interface Receita {
 
     tempo_preparo?: TempoPreparo;
 
-    ingredientes: BlocosDeTexto;
+    ingredientes?: BlocosDeTexto;
     modo_preparo?: BlocosDeTexto;
 
     finalizacao?: string[];
 }
+
+
