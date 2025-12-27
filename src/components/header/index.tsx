@@ -2,22 +2,28 @@ import * as S from "./styles";
 import logoDesk from '../../assets/imagen/maeRece.png';
 import logoMob from '../../assets/imagen/ReceitasdeMae.png';
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 import { getEspecialDeHoje } from "../../utils/especialHoje";
 
 export const Header = () => {
   const navigate = useNavigate();
+  const [busca, setBusca] = useState("");
 
-  // Função para navegar por tag, sem #
   const navegarPorTag = (tag: string) => {
     navigate(`/${tag.toLowerCase()}`);
   };
 
   const especialDeHoje = () => {
-  const id = getEspecialDeHoje();
-  navigate(`/receita/${id}`);
-};
+    const id = getEspecialDeHoje();
+    navigate(`/receita/${id}`);
+  };
 
+  const realizarBusca = () => {
+    if (!busca.trim()) return;
+    navigate(`/buscar/${busca.toLowerCase()}`);
+    setBusca("");
+  };
 
   return (
     <S.Header>
@@ -36,6 +42,18 @@ export const Header = () => {
           <li onClick={especialDeHoje}>Especial de Hoje</li>
         </ul>
       </S.Menu>
+
+      {/* 🔍 Barra de pesquisa */}
+      <S.Search>
+        <input
+          type="text"
+          placeholder="Buscar receita..."
+          value={busca}
+          onChange={(e) => setBusca(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && realizarBusca()}
+        />
+        
+      </S.Search>
     </S.Header>
   );
 };

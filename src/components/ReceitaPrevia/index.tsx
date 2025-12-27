@@ -1,3 +1,4 @@
+import { useEffect } from 'react'; // 👈 Importar useEffect
 import { useNavigate } from "react-router-dom";
 import * as S from "./styles";
 
@@ -13,13 +14,36 @@ type Receita = {
 
 type RecipePreviewProps = {
   receita: Receita | null;
-  onClose: () => void;
+  onClose?: () => void;
+  modo?: "modal" | "pagina";
 };
 
-export function RecipePreview({ receita, onClose }: RecipePreviewProps) {
+export function RecipePreview({
+  receita,
+  onClose,
+  modo = "modal",
+}: RecipePreviewProps) {
   const navigate = useNavigate();
 
+  // 🛑 LÓGICA CORRIGIDA: Usa useEffect para navegar APÓS a renderização
+  useEffect(() => {
+    // A navegação só deve ocorrer se o modo for 'pagina' e a receita existir
+    if (modo === "pagina" && receita) {
+        // Redireciona para a página de detalhes
+        navigate(`/receita/${receita.id}`);
+    }
+    // As dependências garantem que a navegação ocorra apenas quando o componente
+    // é montado e possui as props corretas.
+  }, [modo, receita, navigate]);
+  // ----------------------------------------------------
+
   if (!receita) return null;
+
+  // Se o modo for "pagina", o useEffect cuida da navegação.
+  // Retornamos null para não renderizar nada.
+  if (modo === "pagina") {
+    return null;
+  }
 
   const ingredientesArray =
     receita.ingredientes &&
@@ -51,6 +75,7 @@ export function RecipePreview({ receita, onClose }: RecipePreviewProps) {
             {ingredientesArray.length > 5 && (
               <S.Button
                 type="button"
+                // A navegação no botão de 'Ver mais' está correta, pois é acionada por um clique.
                 onClick={() => navigate(`/receita/${receita.id}`)}
               >
                 Ver mais

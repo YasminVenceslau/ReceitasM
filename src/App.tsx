@@ -7,6 +7,7 @@ import { theme } from "./styles/theme";
 import { Route, Routes } from "react-router-dom";
 import { ReceitaPage } from "./pages/ReceitaPage";
 import { ReceitaList } from "./pages/ReceitasList";
+import { ResultadoBusca } from "./pages/ResultadoBuscas";
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
         
         {/* 3. Rota de Lista por Tag (Genérica, deve ser a última) */}
         <Route path="/:tag" element={<ReceitaList />} /> 
+        <Route path="/buscar/:termo" element={<ResultadoBusca />} />
+
       </Routes>
     </ThemeProvider>
   );

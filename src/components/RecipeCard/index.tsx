@@ -34,7 +34,7 @@ export interface Receita {
     [titulo: string]: string[];
   };
 
-  finalizacao?: string[];
+   Finalização?: string[];
 }
 
 

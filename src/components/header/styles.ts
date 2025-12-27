@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
     width: 100%;
-    height: 80px;
-    padding: 0 24px;
+    height: 95px;
+    padding: 0 8px;
 
     display: flex;
     align-items: center;
@@ -54,4 +54,36 @@ export const Menu = styled.nav`
     @media (max-width: 768px) {
         display: none;
     }
+`;
+export const Search = styled.div`
+  display: flex;
+  gap: 8px;
+
+  input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #d35400;
+    color: #fff;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+
+    input {
+      font-size: 1.05rem;
+      padding: 12px 0;
+    }
+  }
 `;

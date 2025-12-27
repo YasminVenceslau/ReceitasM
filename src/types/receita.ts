@@ -23,7 +23,7 @@ export interface Receita {
     ingredientes?: BlocosDeTexto;
     modo_preparo?: BlocosDeTexto;
 
-    finalizacao?: string[];
+     Finalização?: string[];
 }
 
 

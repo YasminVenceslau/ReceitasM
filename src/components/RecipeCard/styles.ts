@@ -43,7 +43,7 @@ export const Tags = styled.div`
     margin-bottom: 12px;
 
     span {
-        background: ${({ theme }) => theme.colors.background};
+        background: ${({ theme }) => theme.colors.w};
         border: 1px solid ${({ theme }) => theme.colors.border};
         padding: 4px 8px;
         border-radius: 6px;
