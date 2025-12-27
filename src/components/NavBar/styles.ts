@@ -2,17 +2,13 @@ import styled from "styled-components";
 
 
 export const MenuWrapper = styled.div`
+
     /* Fundo do menu */
     .bm-menu {
         background:${({ theme }) => theme.colors.background};
         padding: 2rem 1.5rem;
         font-size: 1.1rem;
-        img{
-            position: absolute;
-            height: 60%;
-        bottom: 10%;
-        right: -50%;
-        }
+        
     }
 
     /* Itens do menu */

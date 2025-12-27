@@ -1,9 +1,7 @@
 import { ThemeProvider } from "styled-components";
-
 import { Header } from "./components/header";
 import { NavBar } from "./components/NavBar";
 import { ListaReceitas } from "./components/RecipeCard/listaReceitas";
-
 import { GlobalCSs } from "./styles/global";
 import { theme } from "./styles/theme";
 import { Route, Routes } from "react-router-dom";
@@ -20,9 +18,14 @@ function App() {
       <NavBar />
 
       <Routes>
-        <Route path= "/" element={<ListaReceitas />} />
-        <Route path="/receita/:id" element={<ReceitaPage  />} />
-        <Route path="/:tag" element={<ReceitaList />} />
+        {/* 1. Rota de Home (Exata) */}
+        <Route path="/" element={<ListaReceitas />} /> 
+        
+        {/* 2. Rota de Detalhe de Receita (Mais Específica) */}
+        <Route path="/receita/:id" element={<ReceitaPage />} /> 
+        
+        {/* 3. Rota de Lista por Tag (Genérica, deve ser a última) */}
+        <Route path="/:tag" element={<ReceitaList />} /> 
       </Routes>
     </ThemeProvider>
   );
