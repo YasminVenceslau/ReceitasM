@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path= "/" element={<ListaReceitas />} />
         <Route path="/receita/:id" element={<ReceitaPage  />} />
-        <Route path="/tag/:tag" element={<ReceitaList />} />
+        <Route path="/:tag" element={<ReceitaList />} />
       </Routes>
     </ThemeProvider>
   );
