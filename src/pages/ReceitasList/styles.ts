@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  background-color: ${({ theme }) => theme.colors.background || "#fff"};
+  background-color: ${({ theme }) => theme.colors.surface || "#fff"};
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 20px;
@@ -28,7 +28,7 @@ export const Title = styled.h2`
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 8px;
-  color: ${({ theme }) => theme.colors.textLight || "#333"};
+  color: ${({ theme }) => theme.colors.primary || "#333"};
 
   white-space: nowrap;       /* não quebra a linha */
   overflow: hidden;          /* corta o texto que ultrapassa */
@@ -37,7 +37,7 @@ export const Title = styled.h2`
 
 export const Category = styled.p`
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.colors.primary || "#666"};
+  color: ${({ theme }) => theme.colors.secondary || "#666"};
   text-transform: uppercase;
   letter-spacing: 0.5px;
 `;

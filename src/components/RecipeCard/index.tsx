@@ -6,32 +6,37 @@ import { RecipePreview } from "../ReceitaPrevia";
 
 
 
+// Exemplo: src/components/RecipeCard/index.tsx
+// Se você está exportando a interface Receita daqui:
+
 export interface Receita {
-    id: number;
-    nome: string;
-    categoria: string;
-    tags: string[];
+  id: number;
+  nome: string;
+  categoria: string;
+  tags: string[];
 
-    forma?: string;
-    Panela?: string;
-    rendimento?: string;
+  forma?: string;
+  Panela?: string;
+  rendimento?: string;
 
-    // ESSENCIAL: Permite que qualquer etapa seja string, ou undefined (se ausente)
-    tempo_preparo?: {
-        [etapa: string]: string | undefined; 
-    };
+  // CORREÇÃO ESSENCIAL 1: tempo_preparo deve aceitar string ou undefined para as chaves
+  tempo_preparo?: {
+    [etapa: string]: string | undefined; 
+  };
 
-    // ESSENCIAL: Remove o ' | undefined' dos arrays internos para consistência
-    ingredientes?: {
-        [titulo: string]: string[];
-    };
+  // CORREÇÃO ESSENCIAL 2: ingredientes deve ter apenas string[] como valor
+  ingredientes?: {
+    [titulo: string]: string[];
+  };
 
-    modo_preparo?: {
-        [titulo: string]: string[];
-    };
+  // CORREÇÃO ESSENCIAL 3: modo_preparo deve ter apenas string[] como valor
+  modo_preparo?: {
+    [titulo: string]: string[];
+  };
 
-    finalizacao?: string[];
+  finalizacao?: string[];
 }
+
 
 type RecipeCardProps = {
   receita: Receita;
