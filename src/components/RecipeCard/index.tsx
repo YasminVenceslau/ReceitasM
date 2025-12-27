@@ -4,7 +4,23 @@ import { useState } from "react";
 import * as S from "./styles";
 import { RecipePreview } from "../ReceitaPrevia";
 
-export function RecipeCard({ receita }) {
+type Receita = {
+  id: number;
+  nome: string;
+  categoria: string;
+  rendimento?: string;
+  tags: string[];
+  tempo_preparo?: {
+    total?: string;
+  };
+  ingredientes?: Record<string, string[]>;
+};
+
+type RecipeCardProps = {
+  receita: Receita;
+};
+
+export function RecipeCard({ receita }: RecipeCardProps) {
   const navigate = useNavigate();
   const [previewOpen, setPreviewOpen] = useState(false);
 
@@ -17,8 +33,12 @@ export function RecipeCard({ receita }) {
         </S.Header>
 
         <S.Info>
-          <p><strong>⏱ Tempo:</strong> {receita.tempo_preparo?.total}</p>
-          <p><strong>🍽 Rendimento:</strong> {receita.rendimento}</p>
+          <p>
+            <strong>⏱ Tempo:</strong> {receita.tempo_preparo?.total}
+          </p>
+          <p>
+            <strong>🍽 Rendimento:</strong> {receita.rendimento}
+          </p>
         </S.Info>
 
         <S.Tags>
@@ -33,7 +53,7 @@ export function RecipeCard({ receita }) {
           </S.Button>
 
           <S.PreviewButton onClick={() => setPreviewOpen(true)}>
-            👁 Previa
+            👁 Prévia
           </S.PreviewButton>
         </S.Actions>
       </S.Card>

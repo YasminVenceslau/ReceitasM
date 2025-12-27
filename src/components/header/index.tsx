@@ -7,7 +7,7 @@ export const Header = () => {
   const navigate = useNavigate();
 
   // Função para navegar por tag, sem #
-  const navegarPorTag = (tag) => {
+  const navegarPorTag = (tag: string) => {
     navigate(`/${tag.toLowerCase()}`);
   };
 
