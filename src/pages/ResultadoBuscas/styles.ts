@@ -47,7 +47,7 @@ export const Card = styled.div`
 export const TitleCard = styled.h3`
   font-size: 1.25rem;
   margin-bottom: 10px;
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.textLight};
   /* Garante que o título não estoure o card */
   white-space: nowrap;
   overflow: hidden;
