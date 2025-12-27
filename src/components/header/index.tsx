@@ -3,6 +3,8 @@ import logoDesk from '../../assets/imagen/maeRece.png';
 import logoMob from '../../assets/imagen/ReceitasdeMae.png';
 import { useNavigate } from "react-router-dom";
 
+import { getEspecialDeHoje } from "../../utils/especialHoje";
+
 export const Header = () => {
   const navigate = useNavigate();
 
@@ -10,6 +12,12 @@ export const Header = () => {
   const navegarPorTag = (tag: string) => {
     navigate(`/${tag.toLowerCase()}`);
   };
+
+  const especialDeHoje = () => {
+  const id = getEspecialDeHoje();
+  navigate(`/receita/${id}`);
+};
+
 
   return (
     <S.Header>
@@ -25,7 +33,7 @@ export const Header = () => {
           <li onClick={() => navigate("/")}>Receitas</li>
           <li onClick={() => navegarPorTag("doce")}>Doces</li>
           <li onClick={() => navegarPorTag("salgado")}>Salgados</li>
-          <li onClick={() => navegarPorTag("especial")}>Especial de Hoje</li>
+          <li onClick={especialDeHoje}>Especial de Hoje</li>
         </ul>
       </S.Menu>
     </S.Header>

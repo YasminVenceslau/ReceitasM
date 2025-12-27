@@ -13,7 +13,7 @@ export function ReceitaList() {
     : receitas;
 
   if (!filtradas.length) {
-    return <S.Container><p>Nenhuma receita encontrada para "{tag}".</p></S.Container>;
+    return <S.Container><p>Nenhuma receita encontrada para o "{tag}".</p></S.Container>;
   }
 
   return (
