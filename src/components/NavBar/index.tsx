@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import  { useState, useCallback } from "react";
 import { slide as Menu } from "react-burger-menu";
 import { useNavigate } from "react-router-dom";
 import * as S from "./styles";
