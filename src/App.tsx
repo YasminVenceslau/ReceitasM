@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         {/* 1. Rota de Home (Exata) */}
-        <Route path="/" element={<ListaReceitas />} /> 
+        <Route path="/" element={<ListaReceitas />} />
         
         {/* 2. Rota de Detalhe de Receita (Mais Específica) */}
         <Route path="/receita/:id" element={<ReceitaPage />} /> 

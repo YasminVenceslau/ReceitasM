@@ -1114,7 +1114,7 @@ export const receitas = [
     unidades: ""
   },
 
-  Tempo_preparo: {
+  tempo_preparo: {
     preparo: "1 hora",
     cocção: "1 hora",
     descanso: "",
@@ -1206,7 +1206,7 @@ export const receitas = [
     unidades: ""
   },
 
-  Tempo_preparo: {
+  tempo_preparo: {
     preparo: "20 minutos",
     geladeira: "12 horas",
     descanso: "",
@@ -1214,7 +1214,7 @@ export const receitas = [
   },
 
   // 🔹 INGREDIENTES com escrita corrigida
-  Ingredientes: {
+  ingredientes: {
     base: [
       "2 latas de atum (sem o caldo)",
       "1 lata de creme de leite (sem o soro)",
@@ -1375,7 +1375,686 @@ export const receitas = [
     "Leve ao forno preaquecido a 180 °C até assar e dourar.",
     "Sirva quente."
   ]
+},
+
+// === Receita 24: Esfirra ===
+{
+  id: 24,
+  nome: "Esfirra",
+  categoria: "Salgado",
+  tags: [
+    "#salgado",
+    "#esfirra",
+    "#massa",
+    "#forno",
+    "#arabe"
+  ],
+
+  forma: "Assadeira untada",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "40 minutos",
+    descanso: "1 hora",
+    forno: "30 a 40 minutos",
+    total: "2 horas e 20 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "2 kg de farinha de trigo",
+      "5 ovos",
+      "2 colheres de fermento",
+      "1 litro de leite",
+      "4 colheres de manteiga",
+      "5 colheres de sopa de açúcar",
+      "1 colher de sopa de sal",
+      "2 copos de óleo"
+    ],
+    recheio: [
+      "Recheio a gosto"
+    ]
+  },
+
+  modo_preparo: {
+    'preparo massa': [
+      "Derreta a manteiga.",
+      "Acrescente o leite e as gemas.",
+      "Mexa bem.",
+      "Dissolva o fermento em um pouco de água.",
+      "Junte o fermento à mistura.",
+      "Adicione os demais ingredientes da massa.",
+      "Misture bem até formar uma massa homogênea."
+    ],
+    descanso: [
+      "Coloque a massa em um recipiente.",
+      "Deixe crescer por aproximadamente 1 hora."
+    ],
+    montagem: [
+      "Divida a massa em porções.",
+      "Deixe as porções reservadas.",
+      "Recheie a gosto.",
+      "Disponha as esfirras em assadeira untada."
+    ]
+  },
+
+  finalização: [
+    "Leve ao forno preaquecido a 180 °C até dourar.",
+    "Sirva quente."
+  ]
 }
+,
+// === Receita 25: Molho Branco ===
+{
+  id: 25,
+  nome: "Molho Branco",
+  categoria: "Salgado",
+  tags: [
+    "#salgado", // 🔹 TAG OBRIGATÓRIA
+    "#molho_branco",
+    "#molho",
+    "#acompanhamento"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "10 minutos",
+    cocção: "15 minutos",
+    total: "25 minutos"
+  },
+
+  ingredientes: {
+    base: [
+      "1/2 tablete de margarina",
+      "1 cebola ralada",
+      "1 litro de leite",
+      "1 colher de sopa de farinha de trigo",
+      "2 cubos de caldo de carne ou de galinha",
+      "1 lata de creme de leite"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Derreta a margarina em uma panela.",
+      "Acrescente a cebola ralada e refogue.",
+      "Adicione quase todo o leite.",
+      "À parte, dissolva a farinha de trigo em um pouco do leite reservado.",
+      "Junte essa mistura ao molho e mexa bem.",
+      "Deixe ferver até engrossar.",
+      "Acrescente os cubos de caldo de carne ou de galinha."
+    ],
+    finalização: [
+      "Desligue o fogo.",
+      "Acrescente o creme de leite e misture bem."
+    ]
+  }
+},
+// === Receita 26: Berinjela Temperada ===
+{
+  id: 26,
+  nome: "Berinjela Temperada",
+  categoria: "Salgado",
+  tags: [
+    "#salgado", // 🔹 TAG OBRIGATÓRIA
+    "#berinjela",
+    "#acompanhamento",
+    "#frito"
+  ],
+
+  porções: {
+    pessoas: "4 a 6",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "15 minutos",
+    fritura: "20 minutos",
+    total: "35 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "3 berinjelas",
+      "3 colheres de sopa de terrine",
+      "3 limões médios",
+      "Óleo para fritar",
+      "Água"
+    ],
+    tempero: [
+      "Alho a gosto",
+      "Cebola a gosto",
+      "Pimenta-do-reino a gosto"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_berinjela: [
+      "Lave bem as berinjelas.",
+      "Frite as berinjelas inteiras, com casca, em óleo e água.",
+      "Retire e deixe escorrer."
+    ],
+    tempero: [
+      "À parte, misture o suco dos limões, o alho, a cebola e o terrine.",
+      "Tempere com pimenta-do-reino."
+    ],
+    montagem: [
+      "Coloque as berinjelas em um recipiente.",
+      "Cubra com o tempero preparado."
+    ]
+  }
+},
+// === Receita 27: Bombom de Uva ===
+{
+  id: 27,
+  nome: "Bombom de Uva",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bombom",
+    "#uva",
+    "#sobremesa"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "aprox. 20 unidades"
+  },
+
+  tempo_preparo: {
+    preparo: "10 minutos",
+    cocção: "15 minutos",
+    descanso: "20 minutos",
+    total: "45 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1 lata de leite condensado",
+      "1 coco ralado",
+      "1 colher de manteiga",
+      "2 gemas",
+      "Uvas inteiras"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Misture o leite condensado, o coco ralado, a manteiga e as gemas.",
+      "Leve ao fogo médio, mexendo sempre, até dar ponto e dourar levemente.",
+      "Retire do fogo e deixe esfriar."
+    ],
+    montagem: [
+      "Envolva as uvas com a massa já fria.",
+      "Modele os bombons."
+    ]
+  }
+},
+// === Receita 28: Brigadeiro ===
+{
+  id: 28,
+  nome: "Brigadeiro",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#brigadeiro",
+    "#chocolate",
+    "#sobremesa"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "aprox. 20 unidades"
+  },
+
+  tempo_preparo: {
+    preparo: "5 minutos",
+    cocção: "10 minutos",
+    total: "15 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1 lata de leite condensado",
+      "2 colheres de Nescau",
+      "1 colher de manteiga"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Em uma panela, coloque o leite condensado, o Nescau e a manteiga.",
+      "Leve ao fogo baixo, mexendo sempre.",
+      "Cozinhe até a massa desgrudar do fundo da panela."
+    ],
+    finalização: [
+      "Retire do fogo.",
+      "Deixe esfriar antes de enrolar ou utilizar como recheio."
+    ]
+  }
+},
+// === Receita 29: Bom-bocado ===
+{
+  id: 29,
+  nome: "Bom-bocado",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bom_bocado",
+    "#sobremesa",
+    "#coco",
+    "#forno"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "12 a 16 unidades"
+  },
+
+  tempo_preparo: {
+    preparo: "15 minutos",
+    forno: "30 minutos",
+    descanso: "10 minutos",
+    total: "55 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1 lata de leite condensado",
+      "2 ovos",
+      "2 colheres de sopa de manteiga derretida",
+      "1 xícara de chá de coco ralado",
+      "1 colher de sopa de farinha de trigo",
+      "1 colher de chá de fermento em pó"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Em uma tigela, misture o leite condensado, os ovos e a manteiga derretida.",
+      "Acrescente o coco ralado e a farinha de trigo, misturando bem.",
+      "Por último, adicione o fermento em pó e misture delicadamente."
+    ],
+    montagem: [
+      "Unte forminhas individuais com manteiga.",
+      "Despeje a massa nas forminhas, sem encher completamente."
+    ],
+    assamento: [
+      "Leve ao forno preaquecido a 180 °C por cerca de 30 minutos, até dourar levemente."
+    ]
+  },
+
+  finalização: [
+    "Retire do forno.",
+    "Deixe amornar antes de desenformar.",
+    "Sirva em temperatura ambiente."
+  ]
+},
+// === Receita 30: Rocambole Louco ===
+{
+  id: 30,
+  nome: "Rocambole Louco",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#rocambole",
+    "#bolo",
+    "#sobremesa"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "1 rocambole"
+  },
+
+  tempo_preparo: {
+    preparo: "20 minutos",
+    forno: "30 minutos",
+    total: "50 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "6 ovos",
+      "12 colheres de açúcar",
+      "6 colheres de queijo ralado",
+      "1 xícara de calda de laranja"
+    ],
+    substituição: [
+      "A calda de laranja pode ser substituída por 2 colheres de sopa de limão"
+    ]
+  },
+
+  modo_preparo: {
+    'preparo massa': [
+      "Bata as claras em neve.",
+      "Acrescente as gemas, uma por uma, batendo sempre.",
+      "Junte o açúcar, o queijo ralado e a calda de laranja.",
+      "Misture bem até obter uma massa homogênea."
+    ],
+    assamento: [
+      "Despeje a massa em forma própria para rocambole, untada.",
+      "Leve ao forno preaquecido a 180 °C até assar."
+    ],
+    montagem: [
+      "Retire do forno.",
+      "Desenforme ainda morno e enrole cuidadosamente."
+    ]
+  }
+},
+// === Receita 31: Glacê de Chocolate ===
+{
+  id: 31,
+  nome: "Glacê de Chocolate",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#glace",
+    "#cobertura",
+    "#chocolate"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "para 1 rocambole"
+  },
+
+  tempo_preparo: {
+    preparo: "5 minutos",
+    total: "5 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1 pacotinho de margarina",
+      "4 colheres de sobremesa de rum",
+      "1 colher de Nescau",
+      "1 colher de açúcar"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Misture bem todos os ingredientes até formar um creme homogêneo."
+    ],
+    finalização: [
+      "Cubra o rocambole já frio com o glacê."
+    ]
+  }
+},
+// === Receita 32: Mais de Banana ===
+{
+  id: 32,
+  nome: "Mais de Banana",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#banana",
+    "#bolo",
+    "#sobremesa",
+    "#forno"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "1 bolo grande"
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    forno: "40 a 50 minutos",
+    total: "1 hora e 20 minutos"
+  },
+
+  ingredientes: {
+    base: [
+      "12 bananas-prata",
+      "Açúcar a gosto",
+      "Manteiga a gosto para untar"
+    ],
+    massa: [
+      "1 xícara de manteiga",
+      "1 xícara de açúcar",
+      "1 xícara de farinha de trigo",
+      "5 ovos",
+      "1 colher de chá de fermento em pó (Pó Royal)",
+      "1 pitada de sal",
+      "1 colher de chá de raspas de limão"
+    ],
+    substituições: [
+      "A banana pode ser substituída por abacaxi ou maçã"
+    ]
+  },
+
+  modo_preparo: {
+   'preparo forma': [
+      "Unte uma forma redonda grande com bastante manteiga e açúcar.",
+      "Arrume no fundo uma camada de bananas cortadas em rodelas.",
+      "Polvilhe açúcar.",
+      "Faça outra camada de bananas e açúcar.",
+      "Repita as camadas até acabarem as bananas."
+    ],
+    'preparo massa': [
+      "Bata a manteiga com o açúcar, as raspas de limão e o sal.",
+      "Junte as gemas e bata novamente até obter um creme claro e esbranquiçado.",
+      "Adicione a farinha de trigo e o fermento em pó.",
+      "Por último, incorpore delicadamente as claras em neve."
+    ],
+    montagem: [
+      "Quando a massa começar a formar bolhas, espalhe-a cuidadosamente sobre as bananas."
+    ],
+    assamento: [
+      "Leve ao forno moderado até assar completamente."
+    ],
+    finalização: [
+      "Retire do forno.",
+      "Desenforme ainda morno."
+    ]
+  }
+},
+// === Receita 33: Manjar de Ameixa ===
+{
+  id: 33,
+  nome: "Manjar de Ameixa",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#manjar",
+    "#ameixa",
+    "#sobremesa",
+    "#geladeira"
+  ],
+
+  porções: {
+    pessoas: "",
+    unidades: "1 forma média"
+  },
+
+  tempo_preparo: {
+    preparo: "10 minutos",
+    geladeira: "4 horas",
+    total: "4 horas e 10 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1/2 litro de leite",
+      "200 g de ameixa sem semente",
+      "1 lata de creme de leite",
+      "8 colheres de açúcar",
+      "3 folhas de gelatina branca"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Dissolva as folhas de gelatina no leite quente.",
+      "Coloque todos os ingredientes no liquidificador.",
+      "Bata até obter uma mistura homogênea."
+    ],
+    geladeira: [
+      "Despeje em uma forma ou recipiente.",
+      "Leve à geladeira até firmar."
+    ]
+  }
+},
+// === Receita 34: Pavê de Morango ===
+{
+  id: 34,
+  nome: "Pavê de Morango",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#pave",
+    "#morango",
+    "#sobremesa",
+    "#geladeira"
+  ],
+
+  forma: "Forma lisa forrada com papel-manteiga",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "20 minutos",
+    geladeira: "4 horas",
+    total: "4 horas e 20 minutos"
+  },
+
+  ingredientes: {
+    principal: [
+      "1/2 kg de morangos",
+      "1/2 kg de biscoito tipo palito francês",
+      "2 colheres de sopa de açúcar",
+      "2 colheres de sopa de conhaque",
+      "1/2 litro de creme de leite sem soro (2 latas)"
+    ]
+  },
+
+  modo_preparo: {
+    preparo: [
+      "Lave os morangos e retire os talos.",
+      "Reserve alguns morangos inteiros para decoração.",
+      "Amasse os morangos com um garfo.",
+      "Misture os morangos amassados com o açúcar, o conhaque e 1/3 do creme de leite."
+    ],
+    montagem: [
+      "Forre uma forma lisa com papel-manteiga.",
+      "Faça camadas alternadas de biscoito e creme.",
+      "Finalize com uma camada de biscoitos.",
+      "Comprima levemente."
+    ],
+    geladeira: [
+      "Cubra e leve à geladeira com um peso por cima.",
+      "Após gelar, desenforme.",
+      "Cubra com o restante do creme de leite.",
+      "Decore com os morangos reservados."
+    ]
+  },
+
+  finalização: [
+    "Mantenha refrigerado até a hora de servir."
+  ]
+}
+,
+// === Receita 35: Torta de Coco ===
+{
+  id: 35,
+  nome: "Torta de Coco",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#torta",
+    "#coco",
+    "#sobremesa",
+    "#forno"
+  ],
+
+  forma: "Forma redonda untada",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    descanso: "15 minutos",
+    forno: "40 minutos",
+    total: "1 hora e 25 minutos"
+  },
+
+  ingredientes: {
+    recheio: [
+      "1 coco grande ralado",
+      "1 lata de leite condensado (Leite Moça)"
+    ],
+    massa: [
+      "2 xícaras de farinha de trigo",
+      "3 colheres de chá de fermento em pó (Pó Royal)",
+      "1/2 colher de sopa de açúcar",
+      "125 g de manteiga",
+      "3 gemas",
+      "2 colheres de sopa de leite"
+    ],
+    creme: [
+      "3 gemas",
+      "6 colheres de sopa de açúcar",
+      "3 colheres de sopa de farinha de trigo",
+      "3 xícaras de leite",
+      "1 pitada de sal"
+    ]
+  },
+
+  modo_preparo: {
+    'preparo massa': [
+      "Misture a farinha de trigo, o fermento e o açúcar.",
+      "Acrescente a manteiga, o leite e as gemas.",
+      "Misture com a ponta dos dedos, sem sovar a massa.",
+      "Forme uma massa homogênea.",
+      "Deixe descansar por 15 minutos."
+    ],
+    'preparo creme': [
+      "Bata as gemas com o açúcar.",
+      "Acrescente a farinha de trigo e misture bem.",
+      "Adicione o leite e o sal.",
+      "Leve ao fogo, mexendo sempre, até engrossar.",
+      "Retire do fogo e reserve."
+    ],
+    montagem: [
+      "Forre o fundo e as laterais da forma com a massa.",
+      "Espalhe o creme sobre a massa.",
+      "Distribua o coco ralado por cima.",
+      "Regue com o leite condensado."
+    ]
+  },
+
+  finalização: [
+    "Leve ao forno preaquecido a 180 °C até dourar.",
+    "Retire do forno e deixe esfriar.",
+    "Decore com frutas a gosto."
+  ]
+}
+
+
+
+
+
+
+
+
+
 
 
 
