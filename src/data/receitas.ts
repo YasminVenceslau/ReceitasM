@@ -783,7 +783,7 @@ export const receitas = [
     ],
 
     forma: "Forma de pizza",
-
+    "rendimento": "4 a 6 porções",
     // 🔹 Quantidade estimada (não altera a receita)
     porcoes: {
         pessoas: "4 a 6",
@@ -800,7 +800,7 @@ export const receitas = [
         total: "aprox. 1 hora"
     },
 
-    // 🔹 INGREDIENTES com ortografia corrigida
+    // 
     ingredientes: {
         massa: [
         "2 tabletes de fermento",
@@ -861,7 +861,7 @@ export const receitas = [
 
     // Forma não se aplica, mas mantida para padronização
     forma: "Não se aplica",
-
+    "rendimento": "6 a 8 porções",
     // 🔹 Quantidade estimada com base no tipo de preparo
     porcoes: {
         pessoas: "6 a 8",
@@ -918,7 +918,7 @@ export const receitas = [
     ],
 
     forma: "Forma média untada",
-
+    "rendimento": "6 a 8 porções",
     porcoes: {
         pessoas: "6 a 8",
         unidades: ""
@@ -987,7 +987,7 @@ export const receitas = [
     ],
 
     forma: "Assadeira untada",
-
+    "rendimento": "8 a 10 porções",
     porcoes: {
         pessoas: "8 a 10",
         unidades: "aprox. 25 a 30 unidades"
@@ -1047,7 +1047,7 @@ export const receitas = [
   ],
 
   forma: "Refratário médio untado",
-
+  "rendimento": "6 a 8 porções",
   porcoes: {
     pessoas: "6 a 8",
     unidades: ""
@@ -1108,7 +1108,7 @@ export const receitas = [
     "#baiana",
     "#pratoPrincipal"
   ],
-
+  "rendimento": "10 a 12 porções",
   'Porções': {
     pessoas: "10 a 12",
     unidades: ""
@@ -1200,7 +1200,7 @@ export const receitas = [
   ],
 
   forma: "Forma untada",
-
+  "rendimento": "8 a 10 porções",
   'porções': {
     pessoas: "8 a 10",
     unidades: ""
@@ -1261,7 +1261,7 @@ export const receitas = [
   ],
 
   forma: "Frigideira untada",
-
+  "rendimento": "4 porções",
   porções: {
     pessoas: "4",
     unidades: "8 a 10 panquecas"
@@ -1317,7 +1317,7 @@ export const receitas = [
   ],
 
   forma: "Assadeira untada",
-
+  "rendimento": "8 a 10 porções",
   porções: {
     pessoas: "8 a 10",
     unidades: ""
@@ -1391,10 +1391,10 @@ export const receitas = [
   ],
 
   forma: "Assadeira untada",
-
+  "rendimento": "10 porções",
   porções: {
-    pessoas: "",
-    unidades: ""
+    pessoas: "10",
+    unidades: "20"
   },
 
   tempo_preparo: {
@@ -1448,6 +1448,7 @@ export const receitas = [
   ]
 }
 ,
+
 // === Receita 25: Molho Branco ===
 {
   id: 25,
@@ -1460,9 +1461,11 @@ export const receitas = [
     "#acompanhamento"
   ],
 
+  rendimento: "Aproximadamente 1,2 litros",
+
   porções: {
-    pessoas: "",
-    unidades: ""
+    pessoas: "6 a 8",
+    unidades: "Serve massas, legumes ou carnes"
   },
 
   tempo_preparo: {
@@ -1488,16 +1491,18 @@ export const receitas = [
       "Acrescente a cebola ralada e refogue.",
       "Adicione quase todo o leite.",
       "À parte, dissolva a farinha de trigo em um pouco do leite reservado.",
-      "Junte essa mistura ao molho e mexa bem.",
+      "Junte essa mistura ao molho, mexendo sempre.",
       "Deixe ferver até engrossar.",
       "Acrescente os cubos de caldo de carne ou de galinha."
     ],
-    finalização: [
+    finalizacao: [
       "Desligue o fogo.",
       "Acrescente o creme de leite e misture bem."
     ]
   }
-},
+}
+,
+
 // === Receita 26: Berinjela Temperada ===
 {
   id: 26,
@@ -1509,6 +1514,8 @@ export const receitas = [
     "#acompanhamento",
     "#frito"
   ],
+
+  rendimento: "1 travessa média",
 
   porções: {
     pessoas: "4 a 6",
@@ -1539,11 +1546,11 @@ export const receitas = [
   modo_preparo: {
     preparo_berinjela: [
       "Lave bem as berinjelas.",
-      "Frite as berinjelas inteiras, com casca, em óleo e água.",
+      "Frite as berinjelas inteiras, com casca, utilizando óleo e água.",
       "Retire e deixe escorrer."
     ],
-    tempero: [
-      "À parte, misture o suco dos limões, o alho, a cebola e o terrine.",
+    preparo_tempero: [
+      "Misture o suco dos limões, o alho, a cebola e o terrine.",
       "Tempere com pimenta-do-reino."
     ],
     montagem: [
@@ -1551,7 +1558,8 @@ export const receitas = [
       "Cubra com o tempero preparado."
     ]
   }
-},
+}
+,
 // === Receita 27: Bombom de Uva ===
 {
   id: 27,
@@ -2045,7 +2053,277 @@ export const receitas = [
     "Retire do forno e deixe esfriar.",
     "Decore com frutas a gosto."
   ]
+},
+// === Receita 36: Gelatina do Rei Albert ===
+{
+  id: 36,
+  nome: "Gelatina do Rei Albert",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#gelatina",
+    "#sobremesa",
+    "#abacaxi",
+    "#fria"
+  ],
+
+  forma: "Forma lisa levemente untada",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "25 minutos",
+    geladeira: "4 horas",
+    total: "4 horas e 25 minutos"
+  },
+
+  ingredientes: {
+    base: [
+      "6 claras",
+      "6 colheres de sopa de açúcar",
+      "10 folhas de gelatina vermelha",
+      "1 xícara de água"
+    ],
+    recheio: [
+      "1 lata de abacaxi em pedaços"
+    ],
+    cobertura: [
+      "6 gemas",
+      "6 colheres de sopa de açúcar"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_base: [
+      "Bata as claras em neve.",
+      "Junte o açúcar e bata como para suspiro.",
+      "Derreta as folhas de gelatina na água.",
+      "Quando ferver, coe a gelatina em um pano.",
+      "Misture a gelatina coada ao suspiro.",
+      "Acrescente o abacaxi picado e misture bem.",
+      "Coloque em uma forma e leve à geladeira até firmar."
+    ],
+    preparo_cobertura: [
+      "Bata as gemas com o açúcar até quase o ponto de gemada.",
+      "Despeje essa mistura sobre a gelatina já firme."
+    ]
+  },
+
+  finalização: [
+    "Leve novamente à geladeira para firmar.",
+    "Desenforme.",
+    "Decore com frutas a gosto."
+  ]
+},
+// === Receita 37: Papos de Anjo ===
+{
+  id: 37,
+  nome: "Papos de Anjo",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#tradicional",
+    "#doces_conventuais",
+    "#forno"
+  ],
+
+  forma: "Forminhas individuais untadas com manteiga",
+
+  porções: {
+    pessoas: "10 a 12",
+    unidades: "aproximadamente 20 unidades"
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    forno: "20 minutos",
+    calda: "15 minutos",
+    total: "1 hora e 5 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "6 ovos (somente as gemas)"
+    ],
+    calda: [
+      "1 kg de açúcar",
+      "1 litro de água",
+      "1/2 fava de baunilha"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_massa: [
+      "Bata bem as gemas até ficarem claras e com o dobro do volume.",
+      "Coloque pequenas porções da mistura em forminhas untadas com manteiga.",
+      "Leve ao forno até crescerem e dourarem."
+    ],
+    preparo_calda: [
+      "Leve ao fogo o açúcar, a água e a fava de baunilha.",
+      "Deixe ferver até formar uma calda clara e transparente."
+    ],
+    finalizacao: [
+      "Retire os papos de anjo das forminhas.",
+      "Coloque-os diretamente na calda ainda quente.",
+      "Deixe ferver até ficarem bem transparentes."
+    ]
+  }
+},
+// === Receita 38 (versão simplificada): Torta Folhada de Nozes ===
+{
+  id: 38,
+  nome: "Torta Folhada de Nozes",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#torta",
+    "#nozes",
+    "#sobremesa",
+    "#forno"
+  ],
+
+  forma: "Forma redonda untada com água fria",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "40 minutos",
+    descanso: "10 minutos",
+    forno: "40 minutos",
+    total: "1 hora e 30 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "1 1/2 xícara de farinha de trigo",
+      "6 colheres de sopa de manteiga",
+      "1 colher de chá de sal",
+      "1/2 xícara de água"
+    ],
+    recheio: [
+      "4 xícaras de nozes moídas (aproximadamente 100 g)",
+      "1 colher de sopa de amido de milho (Maizena)",
+      "1 colher de chá de baunilha",
+      "1/3 de xícara de açúcar",
+      "Gemas (das claras utilizadas)",
+      "2 claras",
+      "Manteiga (para bater o recheio)"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_massa: [
+      "Peneire a farinha sobre uma superfície limpa.",
+      "Faça uma cova no centro e coloque o sal e a água.",
+      "Misture até formar uma massa lisa, que não grude nas mãos.",
+      "Abra a massa com um rolo.",
+      "Espalhe parte da manteiga sobre a massa.",
+      "Dobre a massa em três partes.",
+      "Abra novamente e repita esse processo até usar toda a manteiga (4 dobras no total).",
+      "Reserve a massa."
+    ],
+    preparo_recheio: [
+      "Bata a manteiga com 1/3 de xícara de açúcar até formar um creme.",
+      "Junte as gemas, uma a uma.",
+      "Acrescente as nozes moídas, o amido de milho e a baunilha.",
+      "Bata as claras em neve.",
+      "Misture as claras com o restante do açúcar.",
+      "Incorpore delicadamente ao recheio."
+    ],
+    montagem: [
+      "Divida a massa em três partes iguais.",
+      "Reserve uma parte para fazer o gradeado.",
+      "Abra as outras duas partes.",
+      "Forre o fundo e as laterais da forma.",
+      "Coloque o recheio.",
+      "Leve ao forno por 10 minutos.",
+      "Retire do forno.",
+      "Faça um gradeado com a massa reservada."
+    ]
+  },
+
+  finalizacao: [
+    "Leve novamente ao forno por mais 30 minutos.",
+    "Retire do forno e deixe esfriar antes de desenformar."
+  ]
+},
+// === Receita 39: Taça Havaí ===
+{
+  id: 39,
+  nome: "Taça Havaí",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#sorvete",
+    "#frutas",
+    "#gelada"
+  ],
+
+  forma: "Taças individuais",
+
+  porções: {
+    pessoas: "5",
+    unidades: "5 taças"
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    geladeira: "2 horas",
+    total: "2 horas e 30 minutos"
+  },
+
+  ingredientes: {
+    creme: [
+      "1 lata de leite condensado",
+      "1 lata de água",
+      "2 gemas",
+      "1 colher de sopa de farinha de trigo",
+      "1 colher de sopa de açúcar",
+      "1 colher de sopa de suco de limão"
+    ],
+    frutas: [
+      "3 abacaxis",
+      "1 lata de morango picado",
+      "Cerejas em calda"
+    ],
+    montagem: [
+      "Sorvete de morango"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_creme: [
+      "Corte os abacaxis ao meio no sentido do comprimento.",
+      "Descasque uma metade e reserve as outras metades.",
+      "Bata no liquidificador a metade descascada do abacaxi.",
+      "Utilize aproximadamente 1 xícara e meia do suco obtido.",
+      "Misture o suco do abacaxi com as gemas, a farinha e o açúcar.",
+      "Leve ao fogo brando, mexendo sem parar, até obter um creme.",
+      "Retire do fogo e deixe esfriar.",
+      "Leve à geladeira para gelar."
+    ],
+    preparo_frutas: [
+      "Retire o centro duro do abacaxi reservado.",
+      "Retire a polpa e pique em pedacinhos.",
+      "Reserve."
+    ],
+    montagem: [
+      "Coloque um pouco do creme no fundo da taça.",
+      "Sobre o creme, coloque três bolas de sorvete de morango.",
+      "Decore com pedaços de abacaxi, cerejas em calda ou morangos frescos."
+    ]
+  }
 }
+
+
 
 
 
