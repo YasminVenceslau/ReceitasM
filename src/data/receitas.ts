@@ -2321,7 +2321,330 @@ export const receitas = [
       "Decore com pedaços de abacaxi, cerejas em calda ou morangos frescos."
     ]
   }
+},
+// === Receita 40: Torta Isabel ===
+{
+  id: 40,
+  nome: "Torta Isabel",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#torta",
+    "#coco",
+    "#frutas",
+    "#sobremesa"
+  ],
+
+  forma: "Forma grande retangular ou redonda, untada",
+
+  rendimento: "1 torta grande",
+
+  porções: {
+    pessoas: "12 a 15",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "40 minutos",
+    descanso: "15 minutos",
+    forno: "35 a 40 minutos",
+    total: "1 hora e 35 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "2 1/2 tabletes de margarina",
+      "3 xícaras de farinha de trigo",
+      "3 gemas",
+      "1 xícara de café de leite",
+      "3 colheres de café de fermento em pó (Pó Royal)",
+      "Sal a gosto"
+    ],
+    recheio_coco: [
+      "1 lata de leite condensado",
+      "1/2 coco ralado"
+    ],
+    merengue: [
+      "Claras (das gemas utilizadas)",
+      "Coco ralado a gosto"
+    ],
+    creme: [
+      "2 copos de leite",
+      "2 colheres de sopa de açúcar",
+      "1 colher de sopa de farinha de trigo ou amido de milho",
+      "1/2 copo de leite (para dissolver a farinha)",
+      "2 gemas",
+      "Baunilha a gosto",
+      "1 colher de chá de manteiga"
+    ],
+    cobertura: [
+      "1 coco ralado",
+      "Abacaxi cortado",
+      "Pêssego cortado",
+      "1/2 lata de leite condensado"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_massa: [
+      "Misture a margarina, a farinha de trigo, as gemas, o leite, o fermento e o sal.",
+      "Amasse até formar uma massa homogênea.",
+      "Deixe a massa descansar por alguns minutos.",
+      "Abra a massa com um rolo e forre a forma."
+    ],
+    preparo_recheio_coco: [
+      "Leve ao fogo o leite condensado com 1/2 coco ralado.",
+      "Cozinhe até formar um creme.",
+      "Reserve."
+    ],
+    preparo_creme: [
+      "Leve ao fogo o leite com o açúcar.",
+      "À parte, dissolva a farinha no 1/2 copo de leite e misture as gemas.",
+      "Quando o leite ferver, acrescente essa mistura.",
+      "Mexa até cozinhar bem a farinha.",
+      "Acrescente a manteiga e a baunilha.",
+      "Reserve."
+    ],
+    preparo_merengue: [
+      "Bata as claras em neve.",
+      "Misture delicadamente um pouco de coco ralado."
+    ],
+    montagem: [
+      "Sobre a massa, espalhe o recheio de coco.",
+      "Cubra com o creme.",
+      "Distribua o coco ralado.",
+      "Acrescente o abacaxi e o pêssego picados.",
+      "Regue com 1/2 lata de leite condensado.",
+      "Finalize com o merengue."
+    ]
+  },
+
+  finalizacao: [
+    "Leve ao forno até dourar levemente o merengue.",
+    "Retire do forno e deixe esfriar antes de servir."
+  ]
+},
+// === Receita 41: Diplomata ===
+{
+  id: 41,
+  nome: "Diplomata",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#creme",
+    "#gelada",
+    "#tradicional"
+  ],
+
+  forma: "Travessa média",
+
+  rendimento: "1 travessa média",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    geladeira: "3 horas",
+    total: "3 horas e 30 minutos"
+  },
+
+  ingredientes: {
+    creme_base: [
+      "1 lata de leite condensado",
+      "2 colheres de sopa de açúcar",
+      "2 copos de leite",
+      "2 gemas",
+      "1 colher de sopa de amido de milho (Maizena)",
+      "1/2 copo de leite (para dissolver a Maizena)"
+    ],
+    chocolate: [
+      "2 colheres de sobremesa de Nescau",
+      "1 colher rasa de açúcar",
+      "1/2 colher de sobremesa de manteiga"
+    ],
+    montagem: [
+      "2 pacotes de bolacha champanhe",
+      "1 copo de leite (para umedecer as bolachas)",
+      "Chantilly a gosto"
+    ]
+  },
+
+  modo_preparo: {
+    preparo_creme: [
+      "Leve ao fogo o leite condensado, o açúcar e os 2 copos de leite.",
+      "Cozinhe até começar a engrossar.",
+      "À parte, dissolva a Maizena no 1/2 copo de leite e misture as gemas.",
+      "Acrescente essa mistura ao creme.",
+      "Mexa até engrossar bem.",
+      "Retire do fogo e reserve."
+    ],
+    preparo_chocolate: [
+      "Leve ao fogo o Nescau, o açúcar e a manteiga.",
+      "Cozinhe até engrossar levemente.",
+      "Reserve."
+    ],
+    montagem: [
+      "Umedeça as bolachas champanhe no leite.",
+      "Coloque uma camada de bolachas no fundo da travessa.",
+      "Espalhe uma camada do creme.",
+      "Faça outra camada de bolachas.",
+      "Cubra com o restante do creme.",
+      "Finalize com uma camada de chantilly."
+    ]
+  },
+
+  finalizacao: [
+    "Leve à geladeira por pelo menos 3 horas.",
+    "Sirva bem gelado."
+  ]
+},
+// === Receita 42: Diplomata de Abacaxi ===
+{
+  id: 42,
+  nome: "Diplomata de Abacaxi",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#diplomata",
+    "#abacaxi",
+    "#gelada"
+  ],
+
+  forma: "Travessa média",
+
+  rendimento: "1 travessa média",
+
+  porções: {
+    pessoas: "8 a 10",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "25 minutos",
+    geladeira: "3 horas",
+    total: "3 horas e 25 minutos"
+  },
+
+  ingredientes: {
+    base: [
+      "2 pacotes de bolacha champanhe"
+    ],
+    recheio: [
+      "1 abacaxi em calda, picado (reserve a calda)",
+      "Creme (tipo creme branco ou diplomata tradicional)"
+    ],
+    cobertura: [
+      "Chantilly a gosto"
+    ]
+  },
+
+  modo_preparo: {
+    montagem: [
+      "Umedeça as bolachas champanhe na calda do abacaxi.",
+      "Forre o fundo da travessa com uma camada de bolachas.",
+      "Coloque uma camada de abacaxi picado.",
+      "Acrescente uma camada de creme.",
+      "Repita as camadas, finalizando com o creme."
+    ],
+    finalizacao: [
+      "Cubra com chantilly.",
+      "Leve à geladeira por pelo menos 3 horas."
+    ]
+  },
+
+  servico: [
+    "Sirva bem gelado."
+  ]
+},
+// === Receita 43: Amor em Pedaço ===
+{
+  id: 43,
+  nome: "Amor em Pedaço",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#abacaxi",
+    "#caseiro",
+    "#cortado"
+  ],
+
+  forma: "Forma retangular média",
+
+  rendimento: "1 forma média",
+
+  porções: {
+    pessoas: "",
+    unidades: "30 a 40 pedaços"
+  },
+
+  tempo_preparo: {
+    preparo: "40 minutos",
+    forno: "35 a 45 minutos",
+    descanso: "4 dias",
+    total: "5 dias (com descanso)"
+  },
+
+  ingredientes: {
+    doce_abacaxi: [
+      "1 abacaxi grande ou 2 pequenos",
+      "500 g de açúcar",
+      "1 gema",
+      "1 coco ralado"
+    ],
+    massa: [
+      "6 colheres de sopa de açúcar",
+      "2 colheres de sopa de margarina",
+      "3 gemas",
+      "2 xícaras de chá de farinha de trigo",
+      "3 claras em neve",
+      "1 colher de sobremesa de fermento em pó (Pó Royal)"
+    ],
+    finalizacao: [
+      "Açúcar refinado para passar os pedaços"
+    ]
+  },
+
+  modo_preparo: {
+    doce_abacaxi: [
+      "Descasque e pique o abacaxi.",
+      "Bata o abacaxi no liquidificador.",
+      "Leve ao fogo com o açúcar, a gema e o coco ralado.",
+      "Cozinhe até obter um doce bem apurado.",
+      "Deixe descansar por 4 dias e reserve."
+    ],
+    massa: [
+      "Misture o açúcar, a margarina e as gemas.",
+      "Acrescente a farinha de trigo e misture bem.",
+      "Incorpore delicadamente as claras em neve.",
+      "Adicione o fermento por último."
+    ],
+    montagem: [
+      "Abra a massa com o rolo, como massa de pastel.",
+      "Unte uma forma.",
+      "Coloque uma camada de massa no fundo.",
+      "Espalhe o doce de abacaxi.",
+      "Cubra com o restante da massa."
+    ],
+    forno: [
+      "Leve ao forno médio preaquecido (180 °C).",
+      "Asse até dourar."
+    ],
+    finalizacao: [
+      "Deixe esfriar completamente.",
+      "Corte em quadradinhos.",
+      "Passe os pedaços no açúcar refinado."
+    ]
+  }
 }
+
+
+
 
 
 
