@@ -2909,8 +2909,377 @@ export const receitas = [
     ]
   }
 },
+// === Receita 48: Bolo de Fubá ===
+{
+  id: 48,
+  nome: "Bolo de Fubá",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bolo",
+    "#fuba",
+    "#queijo",
+    "#caseiro"
+  ],
 
+  forma: "Forma untada",
 
+  rendimento: "1 bolo",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "",
+    forno: "",
+    descanso: "Até esfriar",
+    total: ""
+  },
+
+  ingredientes: {
+    massa: [
+      "1 xícara de leite",
+      "6 xícaras de fubá",
+      "2 xícaras de farinha de trigo",
+      "2 xícaras de açúcar",
+      "2 xícaras de queijo ralado",
+      "2 ovos",
+      "1 pitada de canela",
+      "Cravo a gosto",
+      "1 colher e meia de fermento em pó (Pó Royal)"
+    ],
+    finalizacao: [
+      "Canela em pó para polvilhar",
+      "Calda melada para servir"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Coloque os ingredientes em uma tigela, exceto o leite e o fermento.",
+      "Adicione o leite aos poucos, misturando até obter uma massa homogênea.",
+      "Acrescente o fermento em pó por último e misture delicadamente."
+    ],
+    montagem: [
+      "Despeje a massa em uma forma untada.",
+      "Polvilhe canela por cima."
+    ],
+    forno: [
+      "Leve ao forno preaquecido e asse até o bolo ficar dourado e assado por dentro."
+    ],
+    finalizacao: [
+      "Deixe esfriar.",
+      "Sirva gelado, acompanhado de calda melada."
+    ]
+  }
+},
+// === Receita 49: Calda Melada ===
+{
+  id: 49,
+  nome: "Calda Melada",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#calda",
+    "#melada",
+    "#caseiro",
+    "#acompanhamento"
+  ],
+
+  forma: "Panela",
+
+  rendimento: "Aproximadamente 1 xícara de calda",
+
+  porções: {
+    pessoas: "",
+    unidades: "1 xícara"
+  },
+
+  tempo_preparo: {
+    preparo: "5 minutos",
+    forno: "Não precisa ir ao forno",
+    descanso: "Não precisa",
+    total: "10 a 15 minutos"
+  },
+
+  ingredientes: {
+    calda: [
+      "1 xícara de açúcar",
+      "1/2 xícara de água"
+    ]
+  },
+
+  modo_preparo: {
+    calda: [
+      "Coloque o açúcar em uma panela.",
+      "Leve ao fogo baixo até derreter e adquirir uma cor dourada.",
+      "Adicione a água cuidadosamente, pois a mistura pode espirrar.",
+      "Mexa até dissolver os torrões de açúcar.",
+      "Deixe ferver até obter uma calda levemente espessa.",
+      "Retire do fogo e deixe amornar antes de servir."
+    ],
+    finalizacao: [
+      "Sirva sobre o bolo de fubá ou outra sobremesa de sua preferência."
+    ]
+  }
+},
+// === Receita 50: Pudim de Pão ===
+{
+  id: 50,
+  nome: "Pudim de Pão",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#pudim",
+    "#pao",
+    "#caseiro"
+  ],
+
+  forma: "Forma untada",
+
+  rendimento: "1 pudim",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "",
+    forno: "",
+    descanso: "Até esfriar",
+    total: ""
+  },
+
+  ingredientes: {
+    massa: [
+      "2 colheres de sopa de margarina",
+      "8 pães",
+      "1 litro de leite",
+      "1 lata de leite condensado",
+      "1 pacote de coco ralado",
+      "4 ovos",
+      "1 colher de sopa de fermento em pó (Pó Royal)"
+    ],
+    finalizacao: [
+      "Leite condensado para colocar por cima, a gosto"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Corte os pães em pedaços e coloque-os de molho no leite até quase desmancharem.",
+      "Acrescente a margarina e o leite condensado.",
+      "Misture bem os ingredientes.",
+      "Separe as claras das gemas.",
+      "Bata os ovos e adicione-os aos poucos à mistura, mexendo bem.",
+      "Acrescente o fermento em pó e misture delicadamente."
+    ],
+    montagem: [
+      "Unte uma forma.",
+      "Despeje a mistura na forma.",
+      "Distribua o coco ralado por cima."
+    ],
+    forno: [
+      "Leve ao forno preaquecido e asse até dourar e ficar firme."
+    ],
+    finalizacao: [
+      "Retire do forno e deixe esfriar.",
+      "Despeje leite condensado por cima antes de servir."
+    ]
+  }
+},
+// === Receita 51: Bolacha Meia-Lua ===
+{
+  id: 51,
+  nome: "Bolacha Meia-Lua",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bolacha",
+    "#biscoito",
+    "#caseiro",
+    "#tradicional"
+  ],
+
+  forma: "Assadeira",
+
+  rendimento: "Aproximadamente 30 bolachas",
+
+  porções: {
+    pessoas: "",
+    unidades: "Aproximadamente 30 bolachas"
+  },
+
+  tempo_preparo: {
+    preparo: "20 minutos",
+    forno: "15 a 20 minutos",
+    descanso: "Não informado",
+    total: "35 a 40 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "100 g de açúcar",
+      "200 g de manteiga",
+      "300 g de farinha de trigo"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Coloque o açúcar, a manteiga e a farinha de trigo em uma tigela.",
+      "Misture os ingredientes até formar uma massa homogênea.",
+      "Modele pequenas porções de massa em formato de meia-lua."
+    ],
+    montagem: [
+      "Disponha as bolachas em uma assadeira, deixando espaço entre elas."
+    ],
+    forno: [
+      "Leve ao forno preaquecido a 180 °C.",
+      "Asse até as bolachas ficarem levemente douradas."
+    ],
+    finalizacao: [
+      "Retire do forno e deixe esfriar antes de servir."
+    ]
+  }
+},
+// === Receita 52: Ladrõezinhos ===
+{
+  id: 52,
+  nome: "Ladrõezinhos",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bolacha",
+    "#biscoito",
+    "#geleia",
+    "#canela"
+  ],
+
+  forma: "Assadeira",
+
+  rendimento: "Aproximadamente 20 a 30 unidades recheadas",
+
+  porções: {
+    pessoas: "",
+    unidades: "Aproximadamente 20 a 30 unidades recheadas"
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    forno: "15 a 20 minutos",
+    descanso: "1 hora na geladeira",
+    total: "1 hora e 45 minutos a 1 hora e 50 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "100 g de açúcar",
+      "250 g de manteiga",
+      "350 g de farinha de trigo",
+      "1 gema",
+      "3 pitadas de canela em pó",
+      "1 clara para pincelar"
+    ],
+    recheio: [
+      "Geleia de sua preferência"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Misture o açúcar, a manteiga, a farinha de trigo, a gema e a canela até formar uma massa homogênea.",
+      "Cubra a massa e deixe descansar na geladeira por 1 hora.",
+      "Abra a massa com um rolo até obter uma espessura uniforme.",
+      "Corte a massa em círculos."
+    ],
+    montagem: [
+      "Disponha os círculos em uma assadeira.",
+      "Pincele a clara sobre a superfície dos biscoitos."
+    ],
+    forno: [
+      "Leve ao forno preaquecido a 180 °C.",
+      "Asse até ficarem levemente dourados."
+    ],
+    finalizacao: [
+      "Deixe os biscoitos esfriarem.",
+      "Espalhe geleia em um dos lados de cada biscoito.",
+      "Una dois biscoitos com a geleia no meio, formando os ladrõezinhos."
+    ]
+  }
+},
+// === Receita 53: Bolinhos de Manteiga ===
+{
+  id: 53,
+  nome: "Bolinhos de Manteiga",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#bolacha",
+    "#biscoito",
+    "#manteiga",
+    "#limao"
+  ],
+
+  forma: "Assadeira",
+
+  rendimento: "Aproximadamente 30 a 40 unidades",
+
+  porções: {
+    pessoas: "",
+    unidades: "Aproximadamente 30 a 40 bolinhos"
+  },
+
+  tempo_preparo: {
+    preparo: "30 minutos",
+    forno: "15 a 20 minutos",
+    descanso: "1 hora na geladeira",
+    total: "1 hora e 45 minutos a 1 hora e 50 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "375 g de manteiga",
+      "250 g de açúcar",
+      "500 g de farinha de trigo",
+      "2 gemas",
+      "Raspas da casca de 1 limão"
+    ],
+    finalizacao: [
+      "Clara de ovo para pincelar",
+      "Streusel para colocar sobre os biscoitos"
+    ],
+    streusel: [
+      "Farinha de trigo reservada da quantidade total da receita",
+      "Açúcar e manteiga, se necessário para preparar o streusel"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Misture a manteiga, o açúcar, a farinha de trigo, as gemas e as raspas de limão.",
+      "Trabalhe a massa até ficar fina, macia e homogênea.",
+      "Cubra e deixe descansar na geladeira por 1 hora.",
+      "Abra a massa com um rolo e corte no formato desejado."
+    ],
+    montagem: [
+      "Disponha os biscoitos em uma assadeira.",
+      "Pincele clara de ovo sobre cada biscoito para ajudar a dourar.",
+      "Prepare o streusel e distribua sobre cada biscoito."
+    ],
+    forno: [
+      "Leve ao forno brando preaquecido.",
+      "Asse até os biscoitos ficarem levemente dourados."
+    ],
+    finalizacao: [
+      "Retire do forno e deixe esfriar antes de servir."
+    ]
+  }
+},
 
 
 
