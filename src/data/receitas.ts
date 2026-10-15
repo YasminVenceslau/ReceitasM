@@ -179,7 +179,7 @@ export const receitas = [
     // === Receita 4: Carne a Ingleza ===
     {
         "id": 4,
-        "nome": "Carne a Ingleza",
+        "nome": "Carne à Inglesa",
         "categoria": "Carnes",
         "tags": [
             "#salgado",
