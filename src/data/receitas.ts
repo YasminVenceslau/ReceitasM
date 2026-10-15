@@ -2641,10 +2641,274 @@ export const receitas = [
       "Passe os pedaços no açúcar refinado."
     ]
   }
-}
+},
 
+// === Receita 44: Caçarola à Italiana ===
+{
+  
+  id: 44,
+  nome: "Caçarola à Italiana",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#queijo",
+    "#caseiro",
+    "#tradicional"
+  ],
 
+  forma: "Forma untada para banho-maria",
 
+  rendimento: "1 forma média",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "",
+    forno: "",
+    descanso: "Até esfriar",
+    total: ""
+  },
+
+  ingredientes: {
+    massa: [
+      "5 ovos",
+      "4 xícaras de açúcar",
+      "1 pires de queijo ralado",
+      "5 colheres de sopa de farinha de trigo",
+      "2 copos de leite"
+    ],
+    finalizacao: [
+      "1 colher de sopa de açúcar restante para a calda"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Separe as gemas das claras.",
+      "Bata as gemas com 4 xícaras de açúcar.",
+      "Acrescente o queijo ralado, a farinha de trigo e o leite.",
+      "Misture bem todos os ingredientes.",
+      "Bata as claras em neve.",
+      "Incorpore delicadamente as claras em neve à mistura."
+    ],
+    montagem: [
+      "Unte uma forma adequada para banho-maria.",
+      "Despeje a mistura na forma."
+    ],
+    forno: [
+      "Asse em banho-maria até a caçarola ficar firme."
+    ],
+    finalizacao: [
+      "Prepare uma calda caramelizada com o açúcar restante.",
+      "Deixe esfriar.",
+      "Sirva fria."
+    ]
+  }
+},
+// === Receita 45: Torta Lenny ===
+{
+  id: 45,
+  nome: "Torta Lenny",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#nozes",
+    "#amendoim",
+    "#bolacha"
+  ],
+
+  forma: "Travessa ou forma retangular",
+
+  rendimento: "1 torta",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "",
+    forno: "Não precisa ir ao forno",
+    descanso: "Refrigerar até firmar",
+    total: ""
+  },
+
+  ingredientes: {
+    creme: [
+      "250 g de manteiga",
+      "3 xícaras de açúcar",
+      "3 ovos",
+      "2 latas de creme de leite Nestlé sem soro",
+      "1 kg de nozes, amêndoas ou amendoim moído"
+    ],
+    montagem: [
+      "800 g de biscoito champanhe",
+      "Guaraná para molhar os biscoitos",
+      "Vinho do Porto para molhar os biscoitos"
+    ],
+    finalizacao: [
+      "Amendoins inteiros para decorar"
+    ]
+  },
+
+  modo_preparo: {
+    creme: [
+      "Bata a manteiga com o açúcar até obter um creme branco.",
+      "Acrescente as gemas e misture bem.",
+      "Adicione as nozes, amêndoas ou o amendoim já moído.",
+      "Por último, misture o creme de leite sem soro."
+    ],
+    montagem: [
+      "Misture o guaraná com o vinho do Porto para umedecer os biscoitos.",
+      "Faça uma camada de biscoitos umedecidos.",
+      "Espalhe uma camada do creme por cima.",
+      "Alterne as camadas de biscoito e creme.",
+      "Finalize com uma camada de creme."
+    ],
+    finalizacao: [
+      "Decore com amendoins inteiros.",
+      "Leve à geladeira até firmar antes de servir."
+    ]
+  }
+},
+
+// === Receita 46: Pudim de Fubá ===
+{
+  id: 46,
+  nome: "Pudim de Fubá",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#sobremesa",
+    "#fuba",
+    "#caseiro",
+    "#tradicional"
+  ],
+
+  forma: "Forma untada",
+
+  rendimento: "1 pudim",
+
+  porções: {
+    pessoas: "",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "",
+    forno: "",
+    descanso: "Até esfriar",
+    total: ""
+  },
+
+  ingredientes: {
+    massa: [
+      "4 xícaras de fubá",
+      "2 xícaras de açúcar",
+      "2 xícaras de leite",
+      "2 xícaras de margarina",
+      "1 pacote de cravo e canela",
+      "1 pitada de erva-doce",
+      "2 ovos",
+      "1 xícara de água",
+      "Fermento em pó (Pó Royal), quantidade não informada",
+      "Canela em pó para polvilhar"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Coloque o fubá, o açúcar, o leite, a margarina, o cravo e a canela, a erva-doce e a água em uma panela.",
+      "Leve ao fogo, mexendo até a mistura se soltar do fundo da panela.",
+      "Retire do fogo e deixe esfriar completamente.",
+      "Bata os ovos e acrescente-os à mistura fria, mexendo bem.",
+      "Adicione o fermento em pó e misture até dissolver e incorporar."
+    ],
+    montagem: [
+      "Despeje a mistura em uma forma untada.",
+      "Polvilhe canela em pó por cima."
+    ],
+    forno: [
+      "Leve ao forno preaquecido até o pudim assar e ficar firme."
+    ],
+    finalizacao: [
+      "Deixe esfriar antes de desenformar e servir."
+    ]
+  }
+},
+
+// === Receita 47: Espaguete à Carbonara da Isabella ===
+{
+  id: 47,
+  nome: "Espaguete à Carbonara da Isabella",
+  categoria: "Salgado",
+  tags: [
+    "#salgado", // 🔹 TAG OBRIGATÓRIA
+    "#macarrao",
+    "#espaguete",
+    "#bacon",
+    "#caseiro"
+  ],
+
+  forma: "Panela",
+
+  rendimento: "Aproximadamente 2 a 4 porções",
+
+  porções: {
+    pessoas: "2 a 4 pessoas",
+    unidades: ""
+  },
+
+  tempo_preparo: {
+    preparo: "20 a 30 minutos",
+    forno: "Não precisa ir ao forno",
+    descanso: "Não precisa",
+    total: "20 a 30 minutos"
+  },
+
+  ingredientes: {
+    massa: [
+      "1 pacote de macarrão espaguete tipo 8",
+      "Água para cozinhar o macarrão",
+      "Sal a gosto",
+      "Óleo (opcional, conforme a receita original)"
+    ],
+    molho: [
+      "4 ovos",
+      "1 pacote de queijo parmesão ralado",
+      "Pimenta-do-reino a gosto",
+      "Bacon com boa quantidade de gordura (aproximadamente 2 pedaços embalados)"
+    ]
+  },
+
+  modo_preparo: {
+    massa: [
+      "Cozinhe o espaguete conforme as instruções da embalagem, em uma panela destampada.",
+      "Adicione sal à água do cozimento.",
+      "Reserve parte da água do cozimento antes de escorrer o macarrão."
+    ],
+    molho: [
+      "Enquanto o macarrão cozinha, corte o bacon em pedaços.",
+      "Frite o bacon até dourar, sem adicionar óleo, aproveitando a gordura liberada.",
+      "Retire o bacon da panela e reserve a gordura.",
+      "Separe as gemas das claras.",
+      "Misture as gemas com o queijo parmesão ralado e a pimenta-do-reino.",
+      "Acrescente a gordura do bacon à mistura de ovos e queijo, mexendo bem."
+    ],
+    montagem: [
+      "Escorra o espaguete e reserve a água do cozimento.",
+      "Misture o creme de ovos e queijo ao macarrão ainda quente.",
+      "Acrescente pequenas quantidades da água do cozimento para ajudar a formar um molho cremoso.",
+      "Adicione o bacon frito e misture bem.",
+      "Sirva imediatamente."
+    ]
+  }
+},
 
 
 
