@@ -3280,6 +3280,56 @@ export const receitas = [
     ]
   }
 },
+// === Receita 54: Streusel ===
+{
+  id: 54,
+  nome: "Streusel",
+  categoria: "Doce",
+  tags: [
+    "#doce", // 🔹 TAG OBRIGATÓRIA
+    "#cobertura",
+    "#farofa",
+    "#manteiga",
+    "#confeitaria"
+  ],
+
+  forma: "Tigela",
+
+  rendimento: "Aproximadamente 1 xícara",
+
+  porções: {
+    pessoas: "",
+    unidades: "Suficiente para cobrir uma receita"
+  },
+
+  tempo_preparo: {
+    preparo: "10 minutos",
+    forno: "Assa junto com a receita principal",
+    descanso: "Não precisa",
+    total: "10 minutos"
+  },
+
+  ingredientes: {
+    cobertura: [
+      "100 g de farinha de trigo",
+      "50 g de açúcar",
+      "50 g de manteiga gelada"
+    ]
+  },
+
+  modo_preparo: {
+    cobertura: [
+      "Coloque a farinha de trigo e o açúcar em uma tigela.",
+      "Acrescente a manteiga gelada cortada em cubos.",
+      "Misture com as pontas dos dedos até formar uma farofa com pequenos grumos.",
+      "Evite amassar demais para preservar a textura granulada."
+    ],
+    finalizacao: [
+      "Distribua o streusel sobre os biscoitos ou bolos antes de assar.",
+      "Leve ao forno junto com a preparação principal até dourar."
+    ]
+  }
+},
 
 
 
